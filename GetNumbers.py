@@ -29,8 +29,10 @@ def GetNumbers(argv):
       print ('Phone Number is', phoneNumber)
       print (f'Message is "{message}"')
       if input("Are you sure that you want to send this? y/n  ") == "n": raise CancelProgram
-   except CancelProgram: pass
+   except CancelProgram: sys.exit(1)
    except: print("\nERROR: ALL VALUES NOT PROVIDED \nUSAGE: print ('./TextPhone.sh -p <Phone Number> -m <Message surrounded by quotes>')")
+
+   return [phoneNumber, message]
 
 
 if __name__ == "__main__":
