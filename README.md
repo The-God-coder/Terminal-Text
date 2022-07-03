@@ -23,4 +23,8 @@ The current usage for the command is
  sendEmail(info[0], info[1], **"(Email)"**, **"(Password)"**) in TextPhone.sh on Line 8
  
  **NOTE: THIS PROGRAM WILL ONLY WORK WITH VERIZON PHONE NUMBERS AND GOOGLE EMAIL ADRESSES, SUPPORT FOR OTHER CARRIERS AND ADRESSES IS COMING SOON**
+ 
+ If you like my work then me support at
+ 
+ # [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/GodCoder)
 
